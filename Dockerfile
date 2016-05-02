@@ -29,4 +29,6 @@ RUN apt-get update && \
 
 USER atom
 
-CMD ["/usr/bin/atom","-f"]
+WORKDIR /work
+
+CMD ["atom","-f","."]
