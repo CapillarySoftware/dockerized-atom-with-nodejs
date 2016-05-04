@@ -26,9 +26,3 @@ RUN apt-get update && \
     dpkg -i /tmp/atom.deb && \
     rm -f /tmp/atom.deb && \
     useradd -d /home/atom -m atom
-
-USER atom
-
-WORKDIR /work
-
-CMD ["atom","-f","."]
