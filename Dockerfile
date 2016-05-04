@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM node:argon
 
 ENV ATOM_VERSION v1.7.3
 
