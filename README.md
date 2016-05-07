@@ -1,5 +1,7 @@
 # atom
 
+The hard work here was done by [@jamesnetherton](https://github.com/jamesnetherton/docker-atom-editor) in figuring out how to run atom as a gui app from inside of docker. This version is just some changes we needed to support child images.
+
 ## Overview
 
 Install and run the [Atom editor](https://atom.io/) from within a Docker container.
@@ -9,7 +11,7 @@ Install and run the [Atom editor](https://atom.io/) from within a Docker contain
 Clone this repository, change into the source directory and run:
 
 ```
-docker build .
+./build.sh
 ```
 
 ## Running Atom
