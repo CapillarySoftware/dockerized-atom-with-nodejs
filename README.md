@@ -11,7 +11,7 @@ Install and run the [Atom editor](https://atom.io/) from within a Docker contain
 Clone this repository, change into the source directory and run:
 
 ```
-./build.sh
+docker build .
 ```
 
 ## Running Atom
